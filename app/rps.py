@@ -17,16 +17,12 @@ def determine_winner(u, c):
     elif u == "scissors" and c == "paper":
         result = "USER WINS"
     elif u == "paper" and c == "rock":
-        #result = "COMP WINS" # OOPS THAT WAS A BUG :-/
-        result = "USER WINS" # BUG FIXED!!! :-)
+        result = "USER WINS" 
     elif u == "paper" and c == "scissors":
         result = "COMP WINS"
     return result
 
 
-# ONLY RUN THE CODE INDENTED INSIDE
-# ... IF WE ARE RUNNING THIS SCRIPT FROM THE COMMAND LINE
-# ... BUT NOT IF WE ARE IMPORTING
 if __name__ == "__main__":
 
     print("WELCOME TO MY GAME...")
