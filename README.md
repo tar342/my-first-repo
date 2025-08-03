@@ -1,19 +1,40 @@
 # my-first-repo
 
-I added this sentence using the Github online interface to edit the file.
+## Setup
 
-# My First Repo!
+Create and activate a virtual environment:
 
-This is the README.md file. It uses the markdown language.
+```sh
+conda create -n my-first-env python=3.11
 
-Here is a list:
+conda activate my-first-env
+```
 
-  + Item 1
-  + Item 2
-  + Item 3
+Install packages:
 
-For more information about Markdown syntax, see the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).
+```sh
+# pip install pytest
 
-Another edir to the README.
+pip install -r requirements.txt
+```
 
-here is a new feature on my feature branch.
+## Usage
+
+Play a game of rock, paper scissors:
+
+```sh
+# only works if this file does NOT import from other local py files:
+python app/rps.py
+
+# if this file imports from other local py files:
+python -m app.rps
+```
+
+## Tests
+
+Run the tests:
+
+```sh
+# find all the tests and run them:
+pytest
+```
