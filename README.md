@@ -1,13 +1,13 @@
-# my-first-repo
+# my-first-repo-summer-2025
 
 ## Setup
 
 Create and activate a virtual environment:
 
 ```sh
-conda create -n my-first-env python=3.11
+conda create -n my-first-env-2025 python=3.11
 
-conda activate my-first-env
+conda activate my-first-env-2025
 ```
 
 Install packages:
